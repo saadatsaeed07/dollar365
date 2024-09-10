@@ -1,0 +1,3381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+
+  <body class="bg-[#20252c]">
+    <div class="lg:h-[48px]">
+      <!-- Header -->
+      <header
+        class="header fixed left-auto right-0 top-0 z-[200] box-border flex w-[100%] flex-col bg-[#181d26] text-inherit h-[48px]"
+      >
+        <div
+          class="sub-header relative flex h-[48px] min-h-[48px] items-center lg:h-[72px] px-1 md:px-2"
+        >
+          <button
+            class="toggle relative m-0 my-auto inline-flex h-10 cursor-pointer select-none items-center justify-center overflow-visible border-none bg-transparent p-[8px] text-center align-middle text-[1.5rem] text-[#098DEE] outline-0"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              class="component-iconify MuiBox-root css-9uy14h"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                d="M3 6h18M3 12h18M3 18h18"
+              ></path>
+            </svg>
+          </button>
+          <div class="relative ml-1 md:ml-2 lg:ml-0">
+            <a href class="m-0 contents">
+              <img
+                src="./assets/brand_logo_dark.png"
+                alt
+                class="brand-logo lg:ml-[20px] inline-block h-[44px] w-[153px] max-w-full cursor-pointer align-bottom"
+              />
+            </a>
+          </div>
+          <div
+            class="header-items flex flex-row flex-grow ml-[12px] items-center justify-center gap-2 lg-visible"
+          >
+            <a
+              href="#"
+              class="flex header-nav-item items-center text-white px-[6px] py-[8px] rounded-lg hover:bg-[#919eab14]"
+              style="font-size: 0.875rem !important"
+            >
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 28 28"
+                  class="header-navitem-icon"
+                  fill="currentColor"
+                  style="margin-right: 2px"
+                >
+                  <circle
+                    cx="14.024"
+                    cy="14.016"
+                    r="11.622"
+                    opacity=".5"
+                  ></circle>
+                  <polygon
+                    points="19.883,14.943 19.883,16.523 13.795,16.523 13.795,19.681 8.165,14.943"
+                  ></polygon>
+                  <polygon
+                    points="8.165,13.088 8.165,11.509 14.253,11.509 14.253,8.351 19.883,13.088"
+                  ></polygon>
+                </svg>
+              </span>
+              Exchange
+            </a>
+            <a
+              href="#"
+              class="flex header-nav-item text-white items-center px-[6px] py-[8px] rounded-lg hover:bg-[#919eab14]"
+              style="font-size: 0.875rem !important"
+            >
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 28 28"
+                  class="header-navitem-icon"
+                  fill="currentColor"
+                  style="margin-right: 2px"
+                >
+                  <path
+                    d="M25.065,10.415c-0.51-1.57-1.35-2.99-2.43-4.2c-1.61-1.78-3.77-3.07-6.21-3.58c-0.78-0.17-1.6-0.26-2.43-0.26
+                                    s-1.64,0.09-2.42,0.26c-2.45,0.51-4.61,1.8-6.21,3.58c-1.09,1.21-1.92,2.63-2.43,4.2c-0.36,1.13-0.56,2.33-0.56,3.58
+                                    s0.2,2.46,0.56,3.59c0.51,1.57,1.35,3,2.43,4.2c1.61,1.79,3.77,3.07,6.21,3.58c0.78,0.17,1.59,0.26,2.42,0.26s1.65-0.09,2.43-0.26
+                                    c2.44-0.51,4.59-1.8,6.21-3.58c1.08-1.2,1.92-2.63,2.42-4.2c0.37-1.13,0.57-2.34,0.57-3.59S25.425,11.545,25.065,10.415z
+                                    M23.836,9.968l-2.676,1.538c-0.319-0.915-0.805-1.746-1.426-2.461l2.672-1.542C22.997,8.268,23.475,9.093,23.836,9.968z
+                                    M18.349,18.949c-0.65,0.579-1.423,1.028-2.247,1.3l-0.002,0.001c-0.671,0.23-1.38,0.346-2.106,0.346c-0.72,0-1.425-0.116-2.107-0.35
+                                    c-0.207-0.068-0.409-0.147-0.606-0.235c-0.001,0-0.002-0.001-0.002-0.001c-0.591-0.266-1.138-0.621-1.635-1.066l0,0
+                                    c-1.059-0.928-1.798-2.183-2.089-3.54v-0.009v0l-0.02-0.099c-0.044-0.214-0.076-0.427-0.098-0.643s-0.032-0.434-0.032-0.657
+                                    c0-0.44,0.042-0.862,0.13-1.29l0.019-0.101c0.29-1.36,1.031-2.617,2.098-3.554c0.657-0.587,1.409-1.023,2.246-1.299L11.9,7.751
+                                    c0.671-0.229,1.376-0.346,2.095-0.346c0.726,0,1.435,0.116,2.117,0.35c0.84,0.277,1.591,0.711,2.242,1.301l0.003,0.003
+                                    c1.058,0.928,1.797,2.182,2.088,3.539v0.009l0.02,0.099c0.087,0.428,0.13,0.85,0.13,1.29c0,0.453-0.042,0.882-0.131,1.314
+                                    l0,0.001C20.187,16.703,19.438,17.994,18.349,18.949z M13.995,3.375c0.48,0,0.958,0.033,1.43,0.098v3.081
+                                    c-0.464-0.089-0.94-0.148-1.43-0.148c-0.489,0-0.96,0.058-1.42,0.147v-3.08C13.045,3.408,13.52,3.375,13.995,3.375z
+                                    M5.592,7.501l2.674,1.544C7.645,9.76,7.159,10.591,6.84,11.506L4.164,9.968C4.526,9.085,5.004,8.259,5.592,7.501z
+                                    M4.165,18.032l2.676-1.537c0.319,0.915,0.804,1.746,1.426,2.461l-2.673,1.543C5.01,19.743,4.527,18.908,4.165,18.032z
+                                    M13.995,24.625c-0.475,0-0.95-0.033-1.42-0.097v-3.08c0.46,0.089,0.931,0.147,1.42,0.147c0.49,0,0.966-0.059,1.43-0.148v3.081
+                                    C14.953,24.592,14.475,24.625,13.995,24.625z M22.407,20.498l-2.673-1.543c0.621-0.715,1.107-1.546,1.426-2.461l2.67,1.538
+                                    C23.473,18.906,22.991,19.741,22.407,20.498z"
+                    opacity="0.65"
+                  ></path>
+                  <path
+                    d="M16.246,15.745c0-1.238-1.007-2.245-2.245-2.245h-0.042c-0.668-0.021-1.204-0.571-1.204-1.244
+                                    c0-0.686,0.559-1.244,1.244-1.244c0.687,0,1.245,0.559,1.245,1.244c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5
+                                    c0-1.065-0.747-1.954-1.744-2.183V9.511c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v1.318c-1.063,0.236-1.871,1.178-1.871,2.296
+                                    c0,1.239,1.007,2.245,2.245,2.245h0.042c0.668,0.021,1.204,0.571,1.204,1.244c0,0.686-0.559,1.244-1.244,1.244
+                                    c-0.687,0-1.245-0.559-1.245-1.244c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5c0,1.064,0.747,1.954,1.744,2.183v1.318
+                                    c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-1.318c1.064-0.236,1.871-1.178,1.871-2.296z"
+                  ></path>
+                </svg>
+              </span>
+              Casino
+            </a>
+            <a
+              href="#"
+              class="flex header-nav-item text-white items-center px-[6px] py-[8px] font-semibold text-sm rounded-lg hover:bg-[#919eab14]"
+              style="font-size: 0.875rem !important"
+            >
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 28 28"
+                  class="header-navitem-icon mr-[3px]"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M25.065,10.415c-0.51-1.57-1.35-2.99-2.43-4.2c-1.61-1.78-3.77-3.07-6.21-3.58c-0.78-0.17-1.6-0.26-2.43-0.26
+                                    s-1.64,0.09-2.42,0.26c-2.45,0.51-4.61,1.8-6.21,3.58c-1.09,1.21-1.92,2.63-2.43,4.2c-0.36,1.13-0.56,2.33-0.56,3.58
+                                    s0.2,2.46,0.56,3.59c0.51,1.57,1.35,3,2.43,4.2c1.61,1.79,3.77,3.07,6.21,3.58c0.78,0.17,1.59,0.26,2.42,0.26s1.65-0.09,2.43-0.26
+                                    c2.44-0.51,4.59-1.8,6.21-3.58c1.08-1.2,1.92-2.63,2.42-4.2c0.37-1.13,0.57-2.34,0.57-3.59S25.425,11.545,25.065,10.415z
+                                    M23.836,9.968l-2.676,1.538c-0.319-0.915-0.805-1.746-1.426-2.461l2.672-1.542C22.997,8.268,23.475,9.093,23.836,9.968z
+                                    M18.349,18.949c-0.65,0.579-1.423,1.028-2.247,1.3l-0.002,0.001c-0.671,0.23-1.38,0.346-2.106,0.346c-0.72,0-1.425-0.116-2.107-0.35
+                                    c-0.207-0.068-0.409-0.147-0.606-0.235c-0.001,0-0.002-0.001-0.002-0.001c-0.591-0.266-1.138-0.621-1.635-1.066l0,0
+                                    c-1.059-0.928-1.798-2.183-2.089-3.54v-0.009v0l-0.02-0.099c-0.044-0.214-0.076-0.427-0.098-0.643s-0.032-0.434-0.032-0.657
+                                    c0-0.44,0.042-0.862,0.13-1.29l0.019-0.101c0.29-1.36,1.031-2.617,2.098-3.554c0.657-0.587,1.409-1.023,2.246-1.299L11.9,7.751
+                                    c0.671-0.229,1.376-0.346,2.095-0.346c0.726,0,1.435,0.116,2.117,0.35c0.84,0.277,1.591,0.711,2.242,1.301l0.003,0.003
+                                    c1.058,0.928,1.797,2.182,2.088,3.539v0.009l0.02,0.099c0.087,0.428,0.13,0.85,0.13,1.29c0,0.453-0.042,0.882-0.131,1.314
+                                    l0,0.001C20.187,16.703,19.438,17.994,18.349,18.949z M13.995,3.375c0.48,0,0.958,0.033,1.43,0.098v3.081
+                                    c-0.464-0.089-0.94-0.148-1.43-0.148c-0.489,0-0.96,0.058-1.42,0.147v-3.08C13.045,3.408,13.52,3.375,13.995,3.375z
+                                    M5.592,7.501l2.674,1.544C7.645,9.76,7.159,10.591,6.84,11.506L4.164,9.968C4.526,9.085,5.004,8.259,5.592,7.501z
+                                    M4.165,18.032l2.676-1.537c0.319,0.915,0.804,1.746,1.426,2.461l-2.673,1.543C5.01,19.743,4.527,18.908,4.165,18.032z
+                                    M13.995,24.625c-0.475,0-0.95-0.033-1.42-0.097v-3.08c0.46,0.089,0.931,0.147,1.42,0.147c0.49,0,0.966-0.059,1.43-0.148v3.081
+                                    C14.953,24.592,14.475,24.625,13.995,24.625z M22.407,20.498l-2.673-1.543c0.621-0.715,1.107-1.546,1.426-2.461l2.67,1.538
+                                    C23.473,18.906,22.991,19.741,22.407,20.498z"
+                    opacity="0.65"
+                  ></path>
+                  <path
+                    d="M16.246,15.745c0-1.238-1.007-2.245-2.245-2.245h-0.042c-0.668-0.021-1.204-0.571-1.204-1.244
+                                    c0-0.686,0.559-1.244,1.244-1.244c0.687,0,1.245,0.559,1.245,1.244c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5
+                                    c0-1.065-0.747-1.954-1.744-2.183V9.511c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v1.318c-1.063,0.236-1.871,1.178-1.871,2.296
+                                    c0,1.239,1.007,2.245,2.245,2.245h0.042c0.668,0.021,1.204,0.571,1.204,1.244c0,0.686-0.559,1.244-1.244,1.244
+                                    c-0.687,0-1.245-0.559-1.245-1.244c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5c0,1.064,0.747,1.954,1.744,2.183v1.318
+                                    c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-1.318c1.064-0.236,1.871-1.178,1.871-2.296z"
+                  ></path>
+                </svg>
+              </span>
+              Live Casino
+            </a>
+          </div>
+
+          <div
+            class="header-rightside flex flex-row items-center gap-[4px] sm:gap-[8px] justify-end max-lg:flex-grow"
+          >
+            <div class="darktheme-toggle ripple mr-[9.3px] cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+                class="component-iconify MuiBox-root css-9uy14h text-[#919eab] hidden md:block"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <g stroke-dasharray="2">
+                    <path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
+                      <animate
+                        fill="freeze"
+                        attributeName="stroke-dashoffset"
+                        dur="0.2s"
+                        values="4;2"
+                      ></animate>
+                    </path>
+                    <path
+                      d="M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5"
+                    >
+                      <animate
+                        fill="freeze"
+                        attributeName="stroke-dashoffset"
+                        begin="0.2s"
+                        dur="0.2s"
+                        values="4;2"
+                      ></animate>
+                    </path>
+                  </g>
+                  <path
+                    fill="currentColor"
+                    d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
+                    opacity="0"
+                  >
+                    <set attributeName="opacity" begin="0.5s" to="1"></set>
+                  </path>
+                </g>
+                <g fill="currentColor" fill-opacity="0">
+                  <path
+                    d="M15.22 6.03L17.75 4.09L14.56 4L13.5 1L12.44 4L9.25 4.09L11.78 6.03L10.87 9.09L13.5 7.28L16.13 9.09L15.22 6.03Z"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="fill-opacity"
+                      begin="0.6s"
+                      dur="0.4s"
+                      values="0;1"
+                    ></animate>
+                  </path>
+                  <path
+                    d="M19.61 12.25L21.25 11L19.19 10.95L18.5 9L17.81 10.95L15.75 11L17.39 12.25L16.8 14.23L18.5 13.06L20.2 14.23L19.61 12.25Z"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="fill-opacity"
+                      begin="1s"
+                      dur="0.4s"
+                      values="0;1"
+                    ></animate>
+                  </path>
+                </g>
+                <mask id="iconifyReact0">
+                  <circle cx="12" cy="12" r="12" fill="#fff"></circle>
+                  <circle cx="22" cy="2" r="3" fill="#fff">
+                    <animate
+                      fill="freeze"
+                      attributeName="cx"
+                      begin="0.1s"
+                      dur="0.4s"
+                      values="22;18"
+                    ></animate>
+                    <animate
+                      fill="freeze"
+                      attributeName="cy"
+                      begin="0.1s"
+                      dur="0.4s"
+                      values="2;6"
+                    ></animate>
+                    <animate
+                      fill="freeze"
+                      attributeName="r"
+                      begin="0.1s"
+                      dur="0.4s"
+                      values="3;12"
+                    ></animate>
+                  </circle>
+                  <circle cx="22" cy="2" r="1">
+                    <animate
+                      fill="freeze"
+                      attributeName="cx"
+                      begin="0.1s"
+                      dur="0.4s"
+                      values="22;18"
+                    ></animate>
+                    <animate
+                      fill="freeze"
+                      attributeName="cy"
+                      begin="0.1s"
+                      dur="0.4s"
+                      values="2;6"
+                    ></animate>
+                    <animate
+                      fill="freeze"
+                      attributeName="r"
+                      begin="0.1s"
+                      dur="0.4s"
+                      values="1;10"
+                    ></animate>
+                  </circle>
+                </mask>
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="6"
+                  fill="currentColor"
+                  mask="url(#iconifyReact0)"
+                >
+                  <set attributeName="opacity" begin="0.5s" to="0"></set>
+                  <animate
+                    fill="freeze"
+                    attributeName="r"
+                    begin="0.1s"
+                    dur="0.4s"
+                    values="6;10"
+                  ></animate>
+                </circle>
+              </svg>
+            </div>
+            <a
+              href
+              class="login-btn px-[12.5px] py-[6.9px] rounded-lg border border-[#919eab52] hover:border-[#fff] text-white bg-[#181d26]"
+              style="font-size: 0.875rem !important"
+            >
+              Login
+            </a>
+            <a
+              href
+              class="signup-btn text-nowrap bg-[#fff] px-[12.5px] py-[7.5px] text-[#212b36] rounded-lg"
+              style="font-size: 0.875rem !important"
+            >
+              Sign Up
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- mobile-header-items -->
+       <div class="mobile-header-items fixed w-full h-[47px] items-center justify-center py-[15px] bg-[#20252c] border-t border-dashed border-[rgba(145,158,171,0.16)] lg-hidden mt-[48px]">
+      <div
+        class="mobile-header-items flew-row flex "
+      >
+        <a
+          href="#"
+          class="flex header-nav-item items-center text-white px-[6px] py-[8px] rounded-lg hover:bg-[#919eab14]"
+          style="font-size: 0.875rem !important"
+        >
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              role="img"
+              width="24px"
+              height="24px"
+              viewBox="0 0 28 28"
+              class="header-navitem-icon"
+              fill="currentColor"
+              style="margin-right: 2px"
+            >
+              <circle cx="14.024" cy="14.016" r="11.622" opacity=".5"></circle>
+              <polygon
+                points="19.883,14.943 19.883,16.523 13.795,16.523 13.795,19.681 8.165,14.943"
+              ></polygon>
+              <polygon
+                points="8.165,13.088 8.165,11.509 14.253,11.509 14.253,8.351 19.883,13.088"
+              ></polygon>
+            </svg>
+          </span>
+          Exchange
+        </a>
+        <a
+          href="#"
+          class="flex header-nav-item text-white items-center px-[6px] py-[8px] rounded-lg hover:bg-[#919eab14]"
+          style="font-size: 0.875rem !important"
+        >
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              role="img"
+              width="24px"
+              height="24px"
+              viewBox="0 0 28 28"
+              class="header-navitem-icon"
+              fill="currentColor"
+              style="margin-right: 2px"
+            >
+              <path
+                d="M25.065,10.415c-0.51-1.57-1.35-2.99-2.43-4.2c-1.61-1.78-3.77-3.07-6.21-3.58c-0.78-0.17-1.6-0.26-2.43-0.26
+                                    s-1.64,0.09-2.42,0.26c-2.45,0.51-4.61,1.8-6.21,3.58c-1.09,1.21-1.92,2.63-2.43,4.2c-0.36,1.13-0.56,2.33-0.56,3.58
+                                    s0.2,2.46,0.56,3.59c0.51,1.57,1.35,3,2.43,4.2c1.61,1.79,3.77,3.07,6.21,3.58c0.78,0.17,1.59,0.26,2.42,0.26s1.65-0.09,2.43-0.26
+                                    c2.44-0.51,4.59-1.8,6.21-3.58c1.08-1.2,1.92-2.63,2.42-4.2c0.37-1.13,0.57-2.34,0.57-3.59S25.425,11.545,25.065,10.415z
+                                    M23.836,9.968l-2.676,1.538c-0.319-0.915-0.805-1.746-1.426-2.461l2.672-1.542C22.997,8.268,23.475,9.093,23.836,9.968z
+                                    M18.349,18.949c-0.65,0.579-1.423,1.028-2.247,1.3l-0.002,0.001c-0.671,0.23-1.38,0.346-2.106,0.346c-0.72,0-1.425-0.116-2.107-0.35
+                                    c-0.207-0.068-0.409-0.147-0.606-0.235c-0.001,0-0.002-0.001-0.002-0.001c-0.591-0.266-1.138-0.621-1.635-1.066l0,0
+                                    c-1.059-0.928-1.798-2.183-2.089-3.54v-0.009v0l-0.02-0.099c-0.044-0.214-0.076-0.427-0.098-0.643s-0.032-0.434-0.032-0.657
+                                    c0-0.44,0.042-0.862,0.13-1.29l0.019-0.101c0.29-1.36,1.031-2.617,2.098-3.554c0.657-0.587,1.409-1.023,2.246-1.299L11.9,7.751
+                                    c0.671-0.229,1.376-0.346,2.095-0.346c0.726,0,1.435,0.116,2.117,0.35c0.84,0.277,1.591,0.711,2.242,1.301l0.003,0.003
+                                    c1.058,0.928,1.797,2.182,2.088,3.539v0.009l0.02,0.099c0.087,0.428,0.13,0.85,0.13,1.29c0,0.453-0.042,0.882-0.131,1.314
+                                    l0,0.001C20.187,16.703,19.438,17.994,18.349,18.949z M13.995,3.375c0.48,0,0.958,0.033,1.43,0.098v3.081
+                                    c-0.464-0.089-0.94-0.148-1.43-0.148c-0.489,0-0.96,0.058-1.42,0.147v-3.08C13.045,3.408,13.52,3.375,13.995,3.375z
+                                    M5.592,7.501l2.674,1.544C7.645,9.76,7.159,10.591,6.84,11.506L4.164,9.968C4.526,9.085,5.004,8.259,5.592,7.501z
+                                    M4.165,18.032l2.676-1.537c0.319,0.915,0.804,1.746,1.426,2.461l-2.673,1.543C5.01,19.743,4.527,18.908,4.165,18.032z
+                                    M13.995,24.625c-0.475,0-0.95-0.033-1.42-0.097v-3.08c0.46,0.089,0.931,0.147,1.42,0.147c0.49,0,0.966-0.059,1.43-0.148v3.081
+                                    C14.953,24.592,14.475,24.625,13.995,24.625z M22.407,20.498l-2.673-1.543c0.621-0.715,1.107-1.546,1.426-2.461l2.67,1.538
+                                    C23.473,18.906,22.991,19.741,22.407,20.498z"
+                opacity="0.65"
+              ></path>
+              <path
+                d="M16.246,15.745c0-1.238-1.007-2.245-2.245-2.245h-0.042c-0.668-0.021-1.204-0.571-1.204-1.244
+                                    c0-0.686,0.559-1.244,1.244-1.244c0.687,0,1.245,0.559,1.245,1.244c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5
+                                    c0-1.065-0.747-1.954-1.744-2.183V9.511c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v1.318c-1.063,0.236-1.871,1.178-1.871,2.296
+                                    c0,1.239,1.007,2.245,2.245,2.245h0.042c0.668,0.021,1.204,0.571,1.204,1.244c0,0.686-0.559,1.244-1.244,1.244
+                                    c-0.687,0-1.245-0.559-1.245-1.244c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5c0,1.064,0.747,1.954,1.744,2.183v1.318
+                                    c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-1.318c1.064-0.236,1.871-1.178,1.871-2.296z"
+              ></path>
+            </svg>
+          </span>
+          Casino
+        </a>
+        <a
+          href="#"
+          class="flex header-nav-item text-white items-center px-[6px] py-[8px] font-semibold text-sm rounded-lg hover:bg-[#919eab14]"
+          style="font-size: 0.875rem !important"
+        >
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              role="img"
+              width="24px"
+              height="24px"
+              viewBox="0 0 28 28"
+              class="header-navitem-icon mr-[3px]"
+              fill="currentColor"
+            >
+              <path
+                d="M25.065,10.415c-0.51-1.57-1.35-2.99-2.43-4.2c-1.61-1.78-3.77-3.07-6.21-3.58c-0.78-0.17-1.6-0.26-2.43-0.26
+                                    s-1.64,0.09-2.42,0.26c-2.45,0.51-4.61,1.8-6.21,3.58c-1.09,1.21-1.92,2.63-2.43,4.2c-0.36,1.13-0.56,2.33-0.56,3.58
+                                    s0.2,2.46,0.56,3.59c0.51,1.57,1.35,3,2.43,4.2c1.61,1.79,3.77,3.07,6.21,3.58c0.78,0.17,1.59,0.26,2.42,0.26s1.65-0.09,2.43-0.26
+                                    c2.44-0.51,4.59-1.8,6.21-3.58c1.08-1.2,1.92-2.63,2.42-4.2c0.37-1.13,0.57-2.34,0.57-3.59S25.425,11.545,25.065,10.415z
+                                    M23.836,9.968l-2.676,1.538c-0.319-0.915-0.805-1.746-1.426-2.461l2.672-1.542C22.997,8.268,23.475,9.093,23.836,9.968z
+                                    M18.349,18.949c-0.65,0.579-1.423,1.028-2.247,1.3l-0.002,0.001c-0.671,0.23-1.38,0.346-2.106,0.346c-0.72,0-1.425-0.116-2.107-0.35
+                                    c-0.207-0.068-0.409-0.147-0.606-0.235c-0.001,0-0.002-0.001-0.002-0.001c-0.591-0.266-1.138-0.621-1.635-1.066l0,0
+                                    c-1.059-0.928-1.798-2.183-2.089-3.54v-0.009v0l-0.02-0.099c-0.044-0.214-0.076-0.427-0.098-0.643s-0.032-0.434-0.032-0.657
+                                    c0-0.44,0.042-0.862,0.13-1.29l0.019-0.101c0.29-1.36,1.031-2.617,2.098-3.554c0.657-0.587,1.409-1.023,2.246-1.299L11.9,7.751
+                                    c0.671-0.229,1.376-0.346,2.095-0.346c0.726,0,1.435,0.116,2.117,0.35c0.84,0.277,1.591,0.711,2.242,1.301l0.003,0.003
+                                    c1.058,0.928,1.797,2.182,2.088,3.539v0.009l0.02,0.099c0.087,0.428,0.13,0.85,0.13,1.29c0,0.453-0.042,0.882-0.131,1.314
+                                    l0,0.001C20.187,16.703,19.438,17.994,18.349,18.949z M13.995,3.375c0.48,0,0.958,0.033,1.43,0.098v3.081
+                                    c-0.464-0.089-0.94-0.148-1.43-0.148c-0.489,0-0.96,0.058-1.42,0.147v-3.08C13.045,3.408,13.52,3.375,13.995,3.375z
+                                    M5.592,7.501l2.674,1.544C7.645,9.76,7.159,10.591,6.84,11.506L4.164,9.968C4.526,9.085,5.004,8.259,5.592,7.501z
+                                    M4.165,18.032l2.676-1.537c0.319,0.915,0.804,1.746,1.426,2.461l-2.673,1.543C5.01,19.743,4.527,18.908,4.165,18.032z
+                                    M13.995,24.625c-0.475,0-0.95-0.033-1.42-0.097v-3.08c0.46,0.089,0.931,0.147,1.42,0.147c0.49,0,0.966-0.059,1.43-0.148v3.081
+                                    C14.953,24.592,14.475,24.625,13.995,24.625z M22.407,20.498l-2.673-1.543c0.621-0.715,1.107-1.546,1.426-2.461l2.67,1.538
+                                    C23.473,18.906,22.991,19.741,22.407,20.498z"
+                opacity="0.65"
+              ></path>
+              <path
+                d="M16.246,15.745c0-1.238-1.007-2.245-2.245-2.245h-0.042c-0.668-0.021-1.204-0.571-1.204-1.244
+                                    c0-0.686,0.559-1.244,1.244-1.244c0.687,0,1.245,0.559,1.245,1.244c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5
+                                    c0-1.065-0.747-1.954-1.744-2.183V9.511c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v1.318c-1.063,0.236-1.871,1.178-1.871,2.296
+                                    c0,1.239,1.007,2.245,2.245,2.245h0.042c0.668,0.021,1.204,0.571,1.204,1.244c0,0.686-0.559,1.244-1.244,1.244
+                                    c-0.687,0-1.245-0.559-1.245-1.244c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5c0,1.064,0.747,1.954,1.744,2.183v1.318
+                                    c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-1.318c1.064-0.236,1.871-1.178,1.871-2.296z"
+              ></path>
+            </svg>
+          </span>
+          Live Casino
+        </a>
+      </div>
+    </div>
+    </div>
+    <div class="flex overflow-hidden lg:h-[calc(100vh-48px)]">
+      <!-- Side-bar -->
+      <div
+        class="sidebar scrollbar-custom top-12 z-[210] h-full w-[280px] overflow-y-scroll border-dashed border-[#919eab29] bg-[#20252c] lg:border-r hidden xlg-block"
+      >
+        <div class="px-4">
+          <ul>
+            <li
+              class="quick-links leading-[1.5] mb-[4px] cursor-pointer p-[16px_8px_8px_12px] text-[11px] font-bold uppercase text-[rgb(99,115,129)] hover:text-white"
+            >
+              quick links
+            </li>
+            <div class="overflow-hidden">
+              <div>
+                <div
+                  class="search-toggler mb-1 flex min-h-[44px] cursor-pointer items-center rounded-lg p-[4px_8px_4px_12px] align-middle text-[rgb(145,_158,_171)] hover:bg-[rgba(145,_158,_171,_0.08)]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    class="component-iconify MuiBox-root h-[24px] w-[24px] dark:[filter:_brightness(0)_saturate(100%)_invert(41%)_sepia(3%)_saturate(3720%)_hue-rotate(167deg)_brightness(98%)_contrast(59%)]"
+                  >
+                    <g id="iconifyReact11362">
+                      <g id="iconifyReact11363">
+                        <path
+                          id=" iconifyReact11364"
+                          fill="currentColor"
+                          d="m20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8a7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42ZM5 11a6 6 0 1 1 6 6a6 6 0 0 1-6-6Z"
+                        ></path>
+                      </g>
+                    </g></svg
+                  ><span
+                    class="flex h-6 items-center justify-center rounded-[48px] bg-[rgba(145,_158,_171,_0.16)] px-[6px] text-[12px]"
+                    >⌘K</span
+                  >
+                </div>
+                <div
+                  class="inplay mb-1 flex min-h-[44px] cursor-pointer items-center gap-4 rounded-lg p-[4px_8px_4px_12px] align-middle hover:bg-[rgba(145,_158,_171,_0.08)] text-[rgb(145,158,171)]"
+                >
+                  <div class="h-6 w-6">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 24 24"
+                      class="component-iconify MuiBox-root css-9uy14h"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 12h4.5L9 6l4 12l2-9l1.5 3H21"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div
+                    class="flex-auto scroll-smooth text-[14px] font-medium text-[rgb(145,158,171)]"
+                  >
+                    <span class="title-inplay">In Play</span>
+                  </div>
+                  <span
+                    class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                    >1</span
+                  >
+                </div>
+              </div>
+            </div>
+            <ul class="relative m-0 list-none">
+              <li
+                class="sports mb-1 flex w-full items-center justify-between p-[16px_8px_8px_12px] text-[11px] font-bold uppercase leading-[1.5] text-[rgb(99,_115,_129)] hover:text-[rgb(255,255,255)]"
+              >
+                <span class="dark:text-[#919EAB]">Sports</span
+                ><span
+                  class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                  >5</span
+                >
+              </li>
+
+              <div
+                class="mb-[8px] flex min-h-[44px] cursor-pointer items-center gap-4 rounded-lg p-[4px_8px_4px_12px] align-middle text-[rgb(145,_158,_171)] hover:bg-[rgba(145,_158,_171,_0.08)]"
+              >
+                <div class="h-6 w-6">
+                  <img
+                    class="css-bdwu9 css-bdwu10 [filter:_invert(74%)_sepia(10%)_saturate(469%)_hue-rotate(169deg)_brightness(84%)contrast(85%)] dark:[filter:brightness(0)_saturate(100%)_invert(45%)_sepia(19%)_saturate(381%)_hue-rotate(166deg)_brightness(93%)_contrast(90%)]"
+                    src="./assets/Soccer.svg"
+                  />
+                </div>
+                <div
+                  class="flex-auto scroll-smooth text-[14px] font-medium text-[rgb(145,_158,_171)]"
+                >
+                  <span class="title-inplay"> Sccoer</span>
+                </div>
+                <div class="flex flex-row">
+                  <span class="ml-2 leading-[0px]">
+                    <span
+                      class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                      >4</span
+                    >
+                  </span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    class="text-[#909EAB] duration-300"
+                  >
+                    <g id="iconifyReact9412">
+                      <g id="iconifyReact9413">
+                        <path
+                          id="iconifyReact9414"
+                          fill="currentColor"
+                          d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="mb-[8px] flex min-h-[44px] cursor-pointer items-center gap-4 rounded-lg p-[4px_8px_4px_12px] align-middle text-[rgb(145,_158,_171)] hover:bg-[rgba(145,_158,_171,_0.08)]"
+              >
+                <div class="h-6 w-6">
+                  <img
+                    class="css-bdwu9 css-bdwu10 [filter:_invert(74%)_sepia(10%)_saturate(469%)_hue-rotate(169deg)_brightness(84%)contrast(85%)] dark:[filter:brightness(0)_saturate(100%)_invert(45%)_sepia(19%)_saturate(381%)_hue-rotate(166deg)_brightness(93%)_contrast(90%)]"
+                    src="./assets/Tennis.svg"
+                  />
+                </div>
+                <div
+                  class="flex-auto scroll-smooth text-[14px] font-medium text-[rgb(145,_158,_171)]"
+                >
+                  <span class="title-inplay"> Tennis</span>
+                </div>
+                <div class="flex flex-row">
+                  <span class="ml-2 leading-[0px]">
+                    <span
+                      class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                      >8</span
+                    >
+                  </span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    class="text-[#909EAB] duration-300"
+                  >
+                    <g id="iconifyReact9412">
+                      <g id="iconifyReact9413">
+                        <path
+                          id="iconifyReact9414"
+                          fill="currentColor"
+                          d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="mb-[8px] flex min-h-[44px] cursor-pointer items-center gap-4 rounded-lg p-[4px_8px_4px_12px] align-middle text-[rgb(145,_158,_171)] hover:bg-[rgba(145,_158,_171,_0.08)]"
+              >
+                <div class="h-6 w-6">
+                  <img
+                    class="css-bdwu9 css-bdwu10 [filter:_invert(74%)_sepia(10%)_saturate(469%)_hue-rotate(169deg)_brightness(84%)contrast(85%)] dark:[filter:brightness(0)_saturate(100%)_invert(45%)_sepia(19%)_saturate(381%)_hue-rotate(166deg)_brightness(93%)_contrast(90%)]"
+                    src="./assets/Cricket.svg"
+                  />
+                </div>
+                <div
+                  class="flex-auto scroll-smooth text-[14px] font-medium text-[rgb(145,_158,_171)]"
+                >
+                  <span class="title-inplay"> Cricket</span>
+                </div>
+                <div class="flex flex-row">
+                  <span class="ml-2 leading-[0px]">
+                    <span
+                      class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                      >6</span
+                    >
+                  </span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    class="text-[#909EAB] duration-300"
+                  >
+                    <g id="iconifyReact9412">
+                      <g id="iconifyReact9413">
+                        <path
+                          id="iconifyReact9414"
+                          fill="currentColor"
+                          d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="mb-[8px] flex min-h-[44px] cursor-pointer items-center gap-4 rounded-lg p-[4px_8px_4px_12px] align-middle text-[rgb(145,_158,_171)] hover:bg-[rgba(145,_158,_171,_0.08)]"
+              >
+                <div class="h-6 w-6">
+                  <img
+                    class="css-bdwu9 css-bdwu10 [filter:_invert(74%)_sepia(10%)_saturate(469%)_hue-rotate(169deg)_brightness(84%)contrast(85%)] dark:[filter:brightness(0)_saturate(100%)_invert(45%)_sepia(19%)_saturate(381%)_hue-rotate(166deg)_brightness(93%)_contrast(90%)]"
+                    src="./assets/Horse Racing.svg"
+                  />
+                </div>
+                <div
+                  class="flex-auto scroll-smooth text-[14px] font-medium text-[rgb(145,_158,_171)]"
+                >
+                  <span class="title-inplay"> Horse Racing</span>
+                </div>
+                <div class="flex flex-row">
+                  <span class="ml-2 leading-[0px]">
+                    <span
+                      class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                      >6</span
+                    >
+                  </span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    class="text-[#909EAB] duration-300"
+                  >
+                    <g id="iconifyReact9412">
+                      <g id="iconifyReact9413">
+                        <path
+                          id="iconifyReact9414"
+                          fill="currentColor"
+                          d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="mb-[8px] flex min-h-[44px] cursor-pointer items-center gap-4 rounded-lg p-[4px_8px_4px_12px] align-middle text-[rgb(145,_158,_171)] hover:bg-[rgba(145,_158,_171,_0.08)]"
+              >
+                <div class="h-6 w-6">
+                  <img
+                    class="css-bdwu9 css-bdwu10 [filter:_invert(74%)_sepia(10%)_saturate(469%)_hue-rotate(169deg)_brightness(84%)contrast(85%)] dark:[filter:brightness(0)_saturate(100%)_invert(45%)_sepia(19%)_saturate(381%)_hue-rotate(166deg)_brightness(93%)_contrast(90%)]"
+                    src="./assets/Greyhound Racing.svg"
+                  />
+                </div>
+                <div
+                  class="flex-auto scroll-smooth text-[13px] font-medium text-[rgb(145,_158,_171)]"
+                >
+                  <span class="title-inplay"> Greyhound Racing</span>
+                </div>
+                <div class="flex flex-row">
+                  <span class="ml-2 leading-[0px]">
+                    <span
+                      class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                      >1</span
+                    >
+                  </span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    class="text-[#909EAB] duration-300"
+                  >
+                    <g id="iconifyReact9412">
+                      <g id="iconifyReact9413">
+                        <path
+                          id="iconifyReact9414"
+                          fill="currentColor"
+                          d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="mb-[8px] flex min-h-[44px] cursor-pointer items-center gap-4 rounded-lg p-[4px_8px_4px_12px] align-middle text-[rgb(145,_158,_171)] hover:bg-[rgba(145,_158,_171,_0.08)]"
+              >
+                <div class="h-6 w-6">
+                  <img
+                    class="css-bdwu9 css-bdwu10 [filter:_invert(74%)_sepia(10%)_saturate(469%)_hue-rotate(169deg)_brightness(84%)contrast(85%)] dark:[filter:brightness(0)_saturate(100%)_invert(45%)_sepia(19%)_saturate(381%)_hue-rotate(166deg)_brightness(93%)_contrast(90%)]"
+                    src="./assets/Binary.svg"
+                  />
+                </div>
+                <div
+                  class="flex-auto scroll-smooth text-[14px] font-medium text-[rgb(145,_158,_171)]"
+                >
+                  <span class="title-inplay"> Binary</span>
+                </div>
+                <div class="flex flex-row">
+                  <span class="ml-2 leading-[0px]">
+                    <span
+                      class="flex h-[24px] min-w-[24px] items-center justify-center rounded-[48px] bg-[rgba(7,141,238,0.16)] px-[6px] text-xs font-bold text-[rgb(104,205,249)]"
+                      >1</span
+                    >
+                  </span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    class="text-[#909EAB] duration-300"
+                  >
+                    <g id="iconifyReact9412">
+                      <g id="iconifyReact9413">
+                        <path
+                          id="iconifyReact9414"
+                          fill="currentColor"
+                          d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <!-- Main -->
+      <div
+        class="main w-[calc(100% - 580px)] wc flex-grow overflow-y-auto border-dashed border-[rgba(145,_158,_171,_0.2)] lg:h-[calc(100vh-48px)] lg:border-r px-[16px] lg-mt-90"
+      >
+        <div class="lg:pt-2 lg-pt">
+          <div class="block w-full">
+            <div class="w-[100%] max-w-full">
+              <img
+                src="./assets/slider-default-2024324113733565.png"
+                alt
+                class="w-[100%] max-w-full rounded-lg"
+              />
+            </div>
+            <!-- <ul class="slick-dots" role="tablist">
+            <li class="slick-active" role="presentation">
+              <button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00"
+                aria-label="1 of 1" tabindex="0" aria-selected="true">
+                •
+              </button>
+            </li>
+          </ul> -->
+            <div class="hidden items-center md:flex lg:-mt-0.5 w-full">
+              <button
+                class="rounded-full p-[5px_6px] hover:bg-[rgba(145,_158,_171,_0.08)] text-[#098DEE]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  role="img"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  class="component-iconify MuiBox-root css-1t9pz9x"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M6 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6zm4 5a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1zM7 7a1 1 0 0 0 0 2h.001a1 1 0 0 0 0-2H7zm-1 5a1 1 0 0 1 1-1h.001a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1zm1 3a1 1 0 1 0 0 2h.001a1 1 0 1 0 0-2H7z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg></button
+              ><button
+                class="rounded-full p-[5px_6px] hover:bg-[rgba(145,_158,_171,_0.08)] text-[#919eab]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  role="img"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  class="component-iconify MuiBox-root css-1t9pz9x"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6 11.5V6h5.5v5.5H6ZM6 18v-5.5h5.5V18H6Zm6.5-6.5V6H18v5.5h-5.5Zm0 6.5v-5.5H18V18h-5.5ZM5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.588 1.413T19 21H5Zm0-2h14V5H5v14Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div
+              class="mt-1 rounded-[12px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] font-[600] text-[rgb(255,_255,_255)] lg:mt-2"
+            >
+              <div class="flex min-h-[48px] overflow-hidden">
+                <div
+                  class="flex h-full min-h-[48px] cursor-pointer items-center justify-center rounded-full text-[rgb(255,_255,_255)] opacity-0"
+                >
+                  <svg
+                    focusable="false"
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    data-testid="KeyboardArrowLeftIcon"
+                    fill="currentColor"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall h-5 w-5"
+                  >
+                    <path
+                      d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                    ></path>
+                  </svg>
+                </div>
+                <div
+                  class="tabs-container hide-scrollbar relative block flex-auto overflow-x-auto whitespace-nowrap"
+                >
+                  <div
+                    class="relative flex h-full items-center gap-2 xl:mt-[0.5px]"
+                  >
+                    <div
+                      class="btn relative hover:text-indigo-600 text-indigo-600"
+                    >
+                      <button
+                        class="tab relative flex h-[48px] items-center border-b-2 border-transparent active:text-[#098DEE] md:mr-2 lg:mr-4"
+                      >
+                        <span class="text-[14px] text-[#098DEE]"> Cricket</span>
+                        <div
+                          class="ml-2 mr-4 flex h-6 w-6 items-center justify-center text-[#098DEE]"
+                        >
+                          <img
+                            src="./assets/Cricket.svg"
+                            alt="Cricket"
+                            class="tab--active-img"
+                            style="
+                              filter: invert(41%) sepia(94%) saturate(1008%)
+                                hue-rotate(195deg) brightness(102%)
+                                contrast(101%);
+                            "
+                          />
+                        </div>
+                      </button>
+                    </div>
+                    <div
+                      class="btn relative text-gray-600 hover:text-indigo-600"
+                    >
+                      <button
+                        class="tab relative flex h-[48px] items-center border-b-2 border-transparent active:text-[#098DEE] md:mr-2 lg:mr-4"
+                      >
+                        <span class="text-[14px] text-[rgb(145,158,171)]">
+                          Tennis</span
+                        >
+                        <div
+                          class="ml-2 mr-4 flex h-6 w-6 items-center justify-center text-[rgb(145,158,171)]"
+                        >
+                          <img
+                            src="./assets/Tennis.svg"
+                            alt="Tennis"
+                            style="
+                              filter: invert(50%) sepia(0%) saturate(750%)
+                                hue-rotate(180deg) brightness(85%) contrast(90%);
+                            "
+                          />
+                        </div>
+                      </button>
+                    </div>
+                    <div
+                      class="btn relative text-gray-600 hover:text-indigo-600"
+                    >
+                      <button
+                        class="tab relative flex h-[48px] items-center border-b-2 border-transparent active:text-[#098DEE] md:mr-2 lg:mr-4"
+                      >
+                        <span class="text-[14px] text-[rgb(145,158,171)]">
+                          Soccer</span
+                        >
+                        <div
+                          class="ml-2 mr-4 flex h-6 w-6 items-center justify-center text-[rgb(145,158,171)]"
+                        >
+                          <img
+                            src="./assets/Soccer.svg"
+                            alt="Tennis"
+                            style="
+                              filter: invert(50%) sepia(0%) saturate(750%)
+                                hue-rotate(180deg) brightness(85%) contrast(90%);
+                            "
+                          />
+                        </div>
+                      </button>
+                    </div>
+                    <div
+                      class="btn relative text-gray-600 hover:text-indigo-600"
+                    >
+                      <button
+                        class="tab relative flex h-[48px] items-center border-b-2 border-transparent active:text-[#098DEE] md:mr-2 lg:mr-4"
+                      >
+                        <span class="text-[14px] text-[rgb(145,158,171)]">
+                          Horse Racing</span
+                        >
+                        <div
+                          class="ml-2 mr-4 flex h-6 w-6 items-center justify-center text-[rgb(145,158,171)]"
+                        >
+                          <img
+                            src="./assets/Horse Racing.svg"
+                            alt="Tennis"
+                            style="
+                              filter: invert(50%) sepia(0%) saturate(750%)
+                                hue-rotate(180deg) brightness(85%) contrast(90%);
+                            "
+                          />
+                        </div>
+                      </button>
+                    </div>
+                    <div
+                      class="btn relative text-gray-600 hover:text-indigo-600"
+                    >
+                      <button
+                        class="tab relative flex h-[48px] items-center border-b-2 border-transparent active:text-[#098DEE] md:mr-2 lg:mr-4"
+                      >
+                        <span class="text-[14px] text-[rgb(145,158,171)]">
+                          Horse Racing</span
+                        >
+                        <div
+                          class="ml-2 mr-4 flex h-6 w-6 items-center justify-center text-[rgb(145,158,171)]"
+                        >
+                          <img
+                            src="./assets/Greyhound Racing.svg"
+                            alt="Tennis"
+                            style="
+                              filter: invert(50%) sepia(0%) saturate(750%)
+                                hue-rotate(180deg) brightness(85%) contrast(90%);
+                            "
+                          />
+                        </div>
+                      </button>
+                    </div>
+                    <div
+                      class="btn relative text-gray-600 hover:text-indigo-600"
+                    >
+                      <button
+                        class="tab relative flex h-[48px] items-center border-b-2 border-transparent active:text-[#098DEE] md:mr-2 lg:mr-4"
+                      >
+                        <span class="text-[14px] text-[rgb(145,158,171)]">
+                          Lottery</span
+                        >
+                        <div
+                          class="ml-2 mr-4 flex h-6 w-6 items-center justify-center text-[rgb(145,158,171)]"
+                        >
+                          <img
+                            src="./assets/Lottery.svg"
+                            alt="Tennis"
+                            style="
+                              filter: invert(50%) sepia(0%) saturate(750%)
+                                hue-rotate(180deg) brightness(85%) contrast(90%);
+                            "
+                          />
+                        </div>
+                      </button>
+                    </div>
+                    <span
+                      class="bottom-border bg-white dark:bg-black"
+                      style="width: 113px; left: 0px"
+                    ></span>
+                  </div>
+                </div>
+                <div
+                  class="flex h-full min-h-[48px] cursor-pointer items-center justify-center rounded-full text-[rgb(255,_255,_255)]"
+                >
+                  <svg
+                    focusable="false"
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    data-testid="KeyboardArrowRightIcon"
+                    fill="currentColor"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall h-5 w-5"
+                  >
+                    <path
+                      d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- Bet-table -->
+            <ul class="mt-2 flex gap-2 flex-col">
+                  <ul class="mt-2 grid grid-cols-1 gap-2">
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Rachael Heyhoe Flint Trophy</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                The Blaze
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Central Sparks
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <div
+                                  class="text-[10px] font-bold text-[#098DEE]"
+                                >
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                    role="img"
+                                    width="16px"
+                                    height="16px"
+                                    viewBox="0 0 16 16"
+                                    class="component-iconify MuiBox-root css-qe1tzr animate-blink"
+                                  >
+                                    <path
+                                      fill="currentColor"
+                                      d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8Z"
+                                    ></path>
+                                  </svg>
+                                </div>
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[#098DEE]"
+                                  >Live</span
+                                >
+                              </div>
+
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">224474</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >The Blaze</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >5.5</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >106.07</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >6.8</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >113.68</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Central Sparks</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >1.17</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >146.64</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >1.22</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >518.23</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Test Matches</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                England
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Sri Lanka
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <div
+                                  class="text-[10px] font-bold text-[#098DEE]"
+                                >
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                    role="img"
+                                    width="16px"
+                                    height="16px"
+                                    viewBox="0 0 16 16"
+                                    class="component-iconify MuiBox-root css-qe1tzr animate-blink"
+                                  >
+                                    <path
+                                      fill="currentColor"
+                                      d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8Z"
+                                    ></path>
+                                  </svg>
+                                </div>
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[#098DEE]"
+                                  >Live</span
+                                >
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">4187816</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >England</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >1.43</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >9588.69</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >1.44</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >359.35</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Sri Lanka</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >8.6</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >122.08</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >9</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >679.54</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Womens International Twenty20 Matches</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Namibia Women
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                UAE Women
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <div
+                                  class="text-[10px] font-bold text-[#098DEE]"
+                                >
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                    role="img"
+                                    width="16px"
+                                    height="16px"
+                                    viewBox="0 0 16 16"
+                                    class="component-iconify MuiBox-root css-qe1tzr animate-blink"
+                                  >
+                                    <path
+                                      fill="currentColor"
+                                      d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8Z"
+                                    ></path>
+                                  </svg>
+                                </div>
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[#098DEE]"
+                                  >Live</span
+                                >
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">339704</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Namibia Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >50</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >114.86</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >UAE Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >1.01</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >7180.15</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >International Twenty20 Matches</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Scotland
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Australia
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <div
+                                  class="text-[10px] font-bold text-[#098DEE]"
+                                >
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                    role="img"
+                                    width="16px"
+                                    height="16px"
+                                    viewBox="0 0 16 16"
+                                    class="component-iconify MuiBox-root css-qe1tzr animate-blink"
+                                  >
+                                    <path
+                                      fill="currentColor"
+                                      d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8Z"
+                                    ></path>
+                                  </svg>
+                                </div>
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[#098DEE]"
+                                  >Live</span
+                                >
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">19308768</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Scotland</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >15.5</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >4086.49</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >18</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >145.11</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Australia</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >1.06</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >67549.05</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >1.07</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >205466.59</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >T20 Blast</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Warwickshire
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Gloucestershire
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >06-09-2024 23:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Warwickshire</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Gloucestershire</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Boland T10</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Overberg Indwe
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Paarl Rocks
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >06-09-2024 23:30
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Overberg Indwe</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Paarl Rocks</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Caribbean Premier League</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                St. Kitts and Nevis Patriots
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Barbados Royals
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >07-09-2024 04:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div class="h-4 w-4 text-[rgb(255,255,255)]">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  aria-hidden="true"
+                                  role="img"
+                                  width="14px"
+                                  height="14px"
+                                  viewBox="0 0 24 24"
+                                  class="component-iconify MuiBox-root css-540lu8"
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M3 20h18V8H3v12zm6-10l7 4l-7 4v-8z"
+                                    opacity=".3"
+                                  ></path>
+                                  <path
+                                    fill="currentColor"
+                                    d="M9 10v8l7-4zm12-4h-7.58l3.29-3.29L16 2l-4 4h-.03l-4-4l-.69.71L10.56 6H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 14H3V8h18v12z"
+                                  ></path>
+                                </svg>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >St. Kitts and Nevis Patriots</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Barbados Royals</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Womens One Day Internationals</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Ireland Women
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                England Women
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >07-09-2024 15:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Ireland Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >England Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Womens International Twenty20 Matches</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                UAE Women
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Zimbabwe Women
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >07-09-2024 17:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >UAE Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Zimbabwe Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Caribbean Premier League</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                St. Lucia Kings
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Guyana Amazon Warriors
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >08-09-2024 04:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >St. Lucia Kings</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Guyana Amazon Warriors</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Womens International Twenty20 Matches</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Namibia Women
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Zimbabwe Women
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >08-09-2024 17:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Namibia Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Zimbabwe Women</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Test Matches</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Afghanistan
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                New Zealand
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >09-09-2024 09:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Afghanistan</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >New Zealand</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="flex min-h-[70px] w-full flex-col items-center rounded-[2px] border border-dashed border-[rgba(145,_158,_171,_0.16)] bg-[rgba(145,_158,_171,_0.04)] text-[rgb(255,_255,_255)]"
+                    >
+                      <div
+                        class="flex w-full flex-row items-end justify-center md:flex-col md:justify-end"
+                      >
+                        <div
+                          class="flex w-full flex-row flex-wrap items-center justify-center"
+                        >
+                          <div
+                            class="flex h-auto flex-[1_0_5rem] flex-col p-[5px]"
+                          >
+                            <a
+                              class="flex items-center gap-[4.2px] tracking-[.042em]"
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >Cricket</span
+                              ><span
+                                class="h-1 w-1 rounded-full bg-[rgb(99,115,129)]"
+                              ></span
+                              ><span
+                                class="rounded-[8px] text-[9px] font-bold uppercase text-[#098DEE] hover:bg-[rgba(145,158,171,0.16)]"
+                                >T20 Blast</span
+                              ></a
+                            ><a
+                              class="mt-[1px] flex flex-auto flex-col gap-[3px]"
+                            >
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Surrey
+                              </div>
+                              <div
+                                class="overflow-hidden text-[14px] font-bold leading-[1.3] text-[rgb(255,255,255)]"
+                              >
+                                Somerset
+                              </div> </a
+                            ><a class="mt-[3.5px] flex h-4 items-center gap-3">
+                              <div
+                                class="flex min-w-[95px] items-center gap-[6px]"
+                              >
+                                <span
+                                  class="text-[10px] font-bold uppercase text-[rgb(145,158,171)]"
+                                  >14-09-2024 15:00
+                                </span>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  1&nbsp;Markets
+                                </p>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-[10px] font-bold uppercase leading-[1] text-[rgb(145,158,171)]"
+                                >
+                                  Traded:
+                                  <span class="text-[#ffab00]">0</span>
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div
+                            class="market-btn first-ele flex min-w-full items-center gap-2 px-[5px] pb-[4px] text-[0.75rem] md:w-[40%] md:border-0 lg:pb-0 md:min-w-[20rem] md:max-w-[40%]"
+                          >
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Surrey</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span class="text-transparent"> h</span>
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(0,178,255,0.25)] pt-0.5"
+                                ></button
+                                ><button
+                                  class="h-[35px] w-[50%] rounded-[2px] bg-[rgba(255,122,127,0.25)] pt-0.5"
+                                ></button>
+                              </div>
+                            </div>
+                            <div class="flex w-[33.33%] flex-col gap-[2px]">
+                              <span
+                                class="overflow-hidden truncate text-nowrap text-center text-[rgb(255,255,255)]"
+                                >Somerset</span
+                              >
+                              <div class="flex items-center gap-1">
+                                <button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(0,178,255,0.7)] pt-0.5 text-[#000] hover:bg-[rgb(0,178,255)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  ></button
+                                ><button
+                                  class="flex h-[35px] w-[50%] flex-col items-center rounded-[2px] bg-[rgba(255,122,127,0.7)] text-[#000] hover:bg-[rgb(255,122,127)]"
+                                >
+                                  <span
+                                    class="text-center text-[0.8rem] font-semibold"
+                                    >0</span
+                                  ><span
+                                    class="text-center text-[0.7rem] font-medium leading-[0.7rem]"
+                                    >0</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+            </ul>
+            <!-- Middle-Images -->
+            <div
+              class="mt-[32px] grid grid-cols-2 gap-x-2 gap-y-2 px-[1px] md:grid-cols-4 md:gap-x-2 md:gap-y-2 md:px-0 lg:-mx-[1px] lg:mb-0 lg:grid-cols-5 lg:gap-x-2 lg:px-[1px]"
+            >
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 10.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 11.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 12.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 13.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 14.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 15.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 16.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 17.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 18.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 19.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 20.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 21.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 16.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 23.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 24.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 25.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 26.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 27.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 28.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 29.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 30.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 31.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 32.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 33.jpeg"
+                /></a>
+              </div>
+              <div class="cursor-pointer">
+                <a
+                  class="lg:w-44 md:w-[180px] md:h-[135.18px] h-[112px] w-[178px] lg:h-[118px]"
+                  ><img
+                    class="h-full w-full rounded-[2px] border border-dashed border-[rgba(145,158,171,0.16)] bg-cover"
+                    src="./assets/asset 17.jpeg"
+                /></a>
+              </div>
+            </div>
+            <div class="h-[111px] w-full"></div>
+
+            <div class="mt-5">
+              <div
+                class="w-full rounded-xl bg-[#181d25] text-white dark:text-black"
+              >
+                <div
+                  class="flex flex-col-reverse gap-2 space-x-0 px-[8px] pt-[8px] md:w-full md:flex-row lg:flex-row"
+                >
+                  <div class="md:mb-[3.5px] md:w-[140px] lg:mb-0 lg:w-[200px]">
+                    <img
+                      src="./assets/asset 34.png"
+                      alt
+                      class="h-[54px] w-[106px]"
+                    />
+                    <p
+                      class="mt-[9px] text-[13px] font-semibold leading-[19px] text-white md:mb-[1px] lg:mt-2"
+                    >
+                      100% SAFE
+                    </p>
+                    <p
+                      class="mb-[7px] text-[13px] font-normal leading-[19px] text-[#ffff] lg:mb-2"
+                    >
+                      Protected connection and encrypted data.
+                    </p>
+                    <span
+                      class="h-[24px] text-nowrap rounded bg-[rgba(7,141,238,0.16)] px-3 py-[4.75px] text-[12px] font-bold leading-[19px] text-[#68CDF9] lg:px-[11.1px] lg:font-bold"
+                    >
+                      Payment Gateways
+                    </span>
+                    <div class="mb-2 mt-[9px] flex md:mb-0 lg:mb-[7.5px]">
+                      <img
+                        src="./assets/visa.svg"
+                        alt
+                        class="h-[12px] w-[34px]"
+                      />
+                      <img
+                        src="./assets/mastercard2.png"
+                        alt
+                        class="h-[12px] w-[30px]"
+                      />
+                      <img
+                        src="./assets/paypal.svg"
+                        alt
+                        class="h-[12px] w-[34px]"
+                      />
+                      <img
+                        src="./assets/gpay.svg"
+                        alt
+                        class="h-[12px] w-[34px]"
+                      />
+                    </div>
+                    <div class="block md:hidden">
+                      <div class="relative">
+                        <button
+                          class="dark:hover:border-[#D4D4D7] leading-[10px] md:mt-[9px] lg:mt-[7px] mb-1 border border-[rgba(145,158,171,0.32)] rounded-[8px] md:my-1 px-[10px] py-1 hover:scale-105 hover:shadow hover:shadow-white hover:border-[#49505A] hover:bg-white hover:bg-opacity-10 duration-150"
+                        >
+                          <p class="text-xs font-medium text-[#919EAB]">
+                            Language
+                          </p>
+                          <p
+                            class="mt-[-1.5px] text-sm font-medium text-white dark:text-black"
+                          >
+                            English
+                          </p>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="md:ml-1 lg:ml-[5px]">
+                    <div
+                      class="footer-items mb-2 flex justify-center whitespace-nowrap text-center text-[13px] font-medium text-[#919EAB] md:justify-start md:text-start md:text-base lg:text-base"
+                    >
+                      <a
+                        href="#"
+                        class="cursor-pointer border-r border-[#272f37] px-1 hover:underline dark:border-[rgba(145,_158,_171,_0.2)] md:pl-0 md:pr-2.5 lg:pl-[1px] lg:pr-[17px]"
+                        >About</a
+                      ><a
+                        href="#"
+                        class="cursor-pointer border-r border-[#272f37] px-1 hover:underline dark:border-[rgba(145,_158,_171,_0.2)] md:px-2 lg:px-4"
+                        >Blogs</a
+                      ><a
+                        href="#"
+                        class="cursor-pointer border-r border-[#272f37] px-1 hover:underline dark:border-[rgba(145,_158,_171,_0.2)] md:px-2 lg:px-4"
+                        >Contact Us</a
+                      ><a
+                        href="#"
+                        class="cursor-pointer px-1 hover:underline dark:border-[rgba(145,_158,_171,_0.2)] md:px-2 lg:px-4"
+                        >Responsible Gambling</a
+                      >
+                    </div>
+                    <div
+                      class="mt-1 border-t border-dashed border-[#272f37] pt-2 text-[13px] font-medium leading-[20.9px] text-[#919EAB] lg:pt-[9px]"
+                    >
+                      This website is owned and operated by
+                      <span class="text-[14px] text-[#098DEE]"
+                        >Ace Gaming N.V.</span
+                      >, a company registered and established under the laws of
+                      <span class="text-[14px] text-[#098DEE]">Curaçao</span>,
+                      with registration number
+                      <span class="text-[14px] text-[#098DEE]">162315</span>,
+                      with registered address
+                      <span class="text-[14px] text-[#098DEE]"
+                        >Zuikertuintjeweg Z/N (Zuikertuin Tower), Curaçao.</span
+                      >
+                    </div>
+
+                    <div class="hidden md:block">
+                      <div class="relative">
+                        <button
+                          class="dark:hover:border-[#D4D4D7] leading-[10px] md:mt-[9px] lg:mt-[7px] mb-1 border border-[rgba(145,158,171,0.32)] rounded-[8px] md:my-1 px-[10px] py-1 hover:scale-105 hover:shadow hover:shadow-white hover:border-[#49505A] hover:bg-white hover:bg-opacity-10 duration-150"
+                        >
+                          <p class="text-xs font-medium text-[#919EAB]">
+                            Language
+                          </p>
+                          <p
+                            class="mt-[-1.5px] text-sm font-medium text-white dark:text-black"
+                          >
+                            English
+                          </p>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mb-[1px] ml-4 mt-[5px] flex flex-wrap justify-center gap-y-[8px] text-[13px] font-[450] text-[#919EAB] *:mr-5 md:ml-0 md:gap-[18px] *:md:mr-0 lg:mb-0.5 lg:ml-0 lg:mt-0"
+                >
+                  <a href="#" class="cursor-pointer font-medium hover:underline"
+                    >Terms &amp; Conditions</a
+                  >
+                  <a
+                    href="#"
+                    class="translate-x-[-3px] cursor-pointer font-medium hover:underline md:translate-x-0"
+                    >KYC Policy</a
+                  >
+                  <a
+                    href="#"
+                    class="translate-x-[-5px] cursor-pointer font-medium hover:underline md:translate-x-0"
+                    >Privacy Policy</a
+                  >
+                  <a
+                    href="#"
+                    class="translate-x-[3px] cursor-pointer font-medium hover:underline md:translate-x-0"
+                    >Licenses</a
+                  >
+                  <a href="/Home/betting-rules" class="hover:underline"
+                    >Betting Rules</a
+                  >
+                </div>
+                <div
+                  class="flex justify-center bg-[#919EAB29] py-1 text-xs font-bold text-[#87939f]"
+                >
+                  <p>
+                    Copyright © 2024
+                    <span
+                      class="cursor-pointer pr-0.5 text-[#098DEE] hover:underline"
+                      >Dollar365</span
+                    >
+                    All Rights Reserved.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Right-aside -->
+      <aside class="transition-width duration-200 lg:shrink-0 lg-block">
+        <div
+          class="flex flex-col fixed h-full transition-width duration-200 border-l-1 border-l-gray-500/15"
+          style="padding-top: 48px"
+        >
+          <div class="flex flex-col grow"></div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>

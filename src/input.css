@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles using Tailwind's @apply */
+@layer base {
+
+  html,
+  body {
+    overflow-x: hidden;
+    @apply font-body;
+    @apply font-semibold;
+  }
+}
+
+@media (min-width: 1024px) {
+  .w-1190 {
+    display: block;
+  }
+}
+
+@media (min-width: 959px) {
+
+  .lg-block {
+    display: block;
+    width: 299px;
+  }
+}
+
+@media (min-width: 1191px) {
+
+  .xlg-block {
+    display: block;
+
+  }
+}
+
+
+@media (max-width: 958px) {
+  .lg-block {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1191px) {
+
+  .wc {
+    width: 579px;
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1190px) {
+
+  .wc {
+    width: 858px;
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 959px) {
+
+  .lg-visible {
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width: 958px) {
+
+  .lg-visible {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 959px) {
+
+  .lg-hidden {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 958px) {
+
+  .lg-hidden {
+    display: flex;
+  }
+
+}
+
+@media screen and (min-width: 958px) {
+
+  .lg-pt {
+    padding-top: 60px;
+  }
+
+}
+@media screen and (max-width: 958px) {
+
+  .lg-mt-90 {
+    margin-top: 95px;
+  }
+
+}
