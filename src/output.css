@@ -1284,11 +1284,6 @@ html,
   padding-right: 12.5px;
 }
 
-.px-\[16px\]{
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
 .px-\[1px\]{
   padding-left: 1px;
   padding-right: 1px;
@@ -1491,11 +1486,6 @@ html,
 }
 
 .text-\[\#098DEE\]{
-  --tw-text-opacity: 1;
-  color: rgb(9 141 238 / var(--tw-text-opacity));
-}
-
-.text-\[\#098dee\]{
   --tw-text-opacity: 1;
   color: rgb(9 141 238 / var(--tw-text-opacity));
 }
@@ -1709,6 +1699,20 @@ html,
 @media screen and (max-width: 958px) {
   .lg-mt-90 {
     margin-top: 95px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .plx {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .plx {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 
